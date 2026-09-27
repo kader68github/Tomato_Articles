@@ -19,6 +19,25 @@ This repository contains the manuscript and final figures of an original researc
 | --- | --- |
 | `Allouche_manuscript for Plant Physiology and Biochemistry.docx` / `.pdf` | Original research article submitted to *Plant Physiology and Biochemistry* |
 | `Allouche_Zn_Tomato_PPB_Final_Corrected_Stats.docx` / `.pdf` | Final revised version with statistically corrected analyses |
+| `allouche_Zn_Tomato_PPB_Figures_Embedded.docx` | **Submission-ready version with all figures embedded inline.** Manuscript text is identical to the final corrected version; the graphical abstract follows the keywords, and each figure sits on its own page directly above its caption. |
+
+### About the figures-embedded version
+
+`allouche_Zn_Tomato_PPB_Figures_Embedded.docx` is generated from `Allouche_Zn_Tomato_PPB_Final_Corrected_Stats.docx` (which carries no embedded artwork) by inserting the files in `Figures/`. No sentence of the manuscript body is rewritten — the only editorial changes are that the `Figure legends` heading becomes `Figures`, and captions are added for the two display items that had no legend in the text.
+
+Figure numbering inside that document maps to `Figures/` as follows:
+
+| In the document | Source file |
+| --- | --- |
+| Graphical abstract | `graphical_abstract111.png` |
+| Figure 1 | `Figure1_Morphology_Statistically_Corrected.png` |
+| Figure 2 | `Figure2_Proteins_Zn_Statistically_Corrected.png` |
+| Figure 3 | `Figure3_Pigments_POD_Statistically_Corrected.png` |
+| Figure 4 | `Figure4_Correlations_Statistically_Corrected.png` |
+| Figure 5 | `Figure5_Correlations_CORRECTED.png` |
+| Figure 6 | `Conceptual_study111.png` |
+
+Figures 1–4 keep the author's original legends verbatim. Artwork is embedded at full resolution (400 dpi where available) and scaled to the 6.9 in text block, so the file is ~5.6 MB.
 
 ## 🖼️ Figures (`Figures/`)
 
