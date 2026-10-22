@@ -1,0 +1,245 @@
+{
+  "name": "04_vert_emeraude — إن راقكم حرفنا فالفضل فضلكم (4 vers)",
+  "image": "../images/04_vert_emeraude.jpg",
+  "_coordonnees": "Coordonnées normalisées 0..1. rect/bbox = [x, y, largeur, hauteur] depuis le coin haut-gauche.",
+  "text_zones": [
+    {
+      "rect": [
+        0.185,
+        0.275,
+        0.615,
+        0.095
+      ],
+      "label": "vers 1 (or)"
+    },
+    {
+      "rect": [
+        0.185,
+        0.38,
+        0.615,
+        0.09
+      ],
+      "label": "vers 2 (turquoise)"
+    },
+    {
+      "rect": [
+        0.185,
+        0.485,
+        0.615,
+        0.1
+      ],
+      "label": "vers 3 (or)"
+    },
+    {
+      "rect": [
+        0.185,
+        0.59,
+        0.615,
+        0.105
+      ],
+      "label": "vers 4 (turquoise)"
+    }
+  ],
+  "birds": [
+    {
+      "bbox": [
+        0.06,
+        0.04,
+        0.24,
+        0.14
+      ],
+      "mode": "hover",
+      "label": "oiseau turquoise haut-gauche",
+      "phase": 0.0,
+      "amplitude_px": 8,
+      "flutter": 0.055,
+      "flutter_cycles": 12
+    },
+    {
+      "bbox": [
+        0.64,
+        0.045,
+        0.21,
+        0.145
+      ],
+      "mode": "hover",
+      "label": "oiseau doré haut-droit",
+      "phase": 0.44,
+      "amplitude_px": 8,
+      "flutter": 0.055,
+      "flutter_cycles": 12
+    },
+    {
+      "bbox": [
+        0.8,
+        0.17,
+        0.18,
+        0.19
+      ],
+      "mode": "perched",
+      "label": "oiseau turquoise posé (longue queue)",
+      "phase": 0.2,
+      "amplitude_px": 2,
+      "flutter": 0.0,
+      "flutter_cycles": 2
+    },
+    {
+      "bbox": [
+        0.015,
+        0.54,
+        0.2,
+        0.185
+      ],
+      "mode": "hover",
+      "label": "oiseau turquoise bas-gauche",
+      "phase": 0.68,
+      "amplitude_px": 5,
+      "flutter": 0.045,
+      "flutter_cycles": 10
+    },
+    {
+      "bbox": [
+        0.79,
+        0.445,
+        0.195,
+        0.19
+      ],
+      "mode": "hover",
+      "label": "oiseau doré droit",
+      "phase": 0.82,
+      "amplitude_px": 6,
+      "flutter": 0.05,
+      "flutter_cycles": 10
+    }
+  ],
+  "flowers": [
+    {
+      "center": [
+        0.115,
+        0.265
+      ],
+      "radius": 0.042,
+      "label": "lotus turquoise gauche",
+      "phase": 0.1,
+      "sway_px": 4.0,
+      "breathe": 0.018
+    },
+    {
+      "center": [
+        0.105,
+        0.405
+      ],
+      "radius": 0.055,
+      "label": "rose gauche",
+      "phase": 0.35,
+      "sway_px": 4.5,
+      "breathe": 0.02
+    },
+    {
+      "center": [
+        0.145,
+        0.505
+      ],
+      "radius": 0.035,
+      "label": "fleur blanche gauche",
+      "phase": 0.7,
+      "sway_px": 4.0,
+      "breathe": 0.02
+    },
+    {
+      "center": [
+        0.13,
+        0.695
+      ],
+      "radius": 0.04,
+      "label": "fleur blanche bas-gauche",
+      "phase": 0.52,
+      "sway_px": 4.0,
+      "breathe": 0.02
+    },
+    {
+      "center": [
+        0.22,
+        0.825
+      ],
+      "radius": 0.065,
+      "label": "rose bas-gauche",
+      "phase": 0.85,
+      "sway_px": 5.0,
+      "breathe": 0.018
+    },
+    {
+      "center": [
+        0.5,
+        0.855
+      ],
+      "radius": 0.075,
+      "label": "grand lotus central bas",
+      "phase": 0.0,
+      "sway_px": 4.0,
+      "breathe": 0.022
+    },
+    {
+      "center": [
+        0.76,
+        0.83
+      ],
+      "radius": 0.065,
+      "label": "rose bas-droite",
+      "phase": 0.28,
+      "sway_px": 5.0,
+      "breathe": 0.018
+    },
+    {
+      "center": [
+        0.885,
+        0.7
+      ],
+      "radius": 0.04,
+      "label": "fleur blanche droite",
+      "phase": 0.63,
+      "sway_px": 4.0,
+      "breathe": 0.02
+    },
+    {
+      "center": [
+        0.875,
+        0.625
+      ],
+      "radius": 0.06,
+      "label": "rose droite",
+      "phase": 0.46,
+      "sway_px": 4.5,
+      "breathe": 0.02
+    },
+    {
+      "center": [
+        0.88,
+        0.36
+      ],
+      "radius": 0.05,
+      "label": "lotus turquoise droit",
+      "phase": 0.92,
+      "sway_px": 4.0,
+      "breathe": 0.018
+    }
+  ],
+  "effects": {
+    "flowers": true,
+    "birds": true,
+    "bird_engine": "warp",
+    "shimmer": true,
+    "petals": true,
+    "wind_px": 2.0,
+    "petal_count": 12,
+    "petal_colors": [
+      "#eec3c8",
+      "#dfa0a8",
+      "#f4dfe0",
+      "#9fd8cf"
+    ],
+    "protect_margin_px": 8,
+    "protect_feather_px": 16,
+    "seed": 7
+  }
+}

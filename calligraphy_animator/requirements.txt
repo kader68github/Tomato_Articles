@@ -1,0 +1,6 @@
+# animate_calligraphy.py — Python >= 3.10
+numpy>=1.24
+opencv-python-headless>=4.8
+Pillow>=10.0
+imageio>=2.31
+imageio-ffmpeg>=0.4.9   # binaire FFmpeg : encodage MP4 H.264 (libx264)

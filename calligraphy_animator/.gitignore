@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Les rendus de output/ sont conservés comme démonstrations,
+# mais les séquences PNG intermédiaires (lourdes) sont ignorées :
+output/*/frame_*.png

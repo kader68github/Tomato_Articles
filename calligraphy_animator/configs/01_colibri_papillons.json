@@ -1,0 +1,298 @@
+{
+  "name": "01_colibri_papillons — أسعد الله صباحكم",
+  "image": "../images/01_colibri_papillons.jpg",
+  "_coordonnees": "Coordonnées normalisées 0..1. rect/bbox = [x, y, largeur, hauteur] depuis le coin haut-gauche. Le colibri principal est ENTRE le titre et la ligne 1 : il peut donc voler sans que le texte soit touché.",
+  "text_zones": [
+    {
+      "rect": [
+        0.345,
+        0.178,
+        0.44,
+        0.04
+      ],
+      "label": "titre (suiveurs de la calligraphie)"
+    },
+    {
+      "rect": [
+        0.33,
+        0.328,
+        0.52,
+        0.102
+      ],
+      "label": "ligne 1"
+    },
+    {
+      "rect": [
+        0.285,
+        0.38,
+        0.05,
+        0.05
+      ],
+      "label": "ligne 1 (finale a gauche)"
+    },
+    {
+      "rect": [
+        0.265,
+        0.515,
+        0.57,
+        0.075
+      ],
+      "label": "ligne 2"
+    }
+  ],
+  "birds": [
+    {
+      "bbox": [
+        0.405,
+        0.205,
+        0.3,
+        0.12
+      ],
+      "mode": "hover",
+      "label": "colibri principal",
+      "phase": 0.0,
+      "amplitude_px": 7,
+      "flutter": 0.07,
+      "flutter_cycles": 18,
+      "bob_cycles": 3
+    },
+    {
+      "bbox": [
+        0.195,
+        0.348,
+        0.14,
+        0.062
+      ],
+      "mode": "hover",
+      "label": "petit colibri gauche",
+      "phase": 0.45,
+      "amplitude_px": 5,
+      "flutter": 0.07,
+      "flutter_cycles": 18,
+      "bob_cycles": 3
+    },
+    {
+      "bbox": [
+        0.12,
+        0.23,
+        0.095,
+        0.075
+      ],
+      "mode": "butterfly",
+      "label": "papillon orangé haut-gauche",
+      "phase": 0.2,
+      "amplitude_px": 5,
+      "flutter": 0.1,
+      "flutter_cycles": 10
+    },
+    {
+      "bbox": [
+        0.33,
+        0.595,
+        0.08,
+        0.065
+      ],
+      "mode": "butterfly",
+      "label": "petit papillon central",
+      "phase": 0.66,
+      "amplitude_px": 4,
+      "flutter": 0.1,
+      "flutter_cycles": 8
+    },
+    {
+      "bbox": [
+        0.6,
+        0.73,
+        0.14,
+        0.1
+      ],
+      "mode": "butterfly",
+      "label": "papillon bleu droit",
+      "phase": 0.33,
+      "amplitude_px": 3,
+      "flutter": 0.11,
+      "flutter_cycles": 6
+    },
+    {
+      "bbox": [
+        0.365,
+        0.805,
+        0.135,
+        0.1
+      ],
+      "mode": "butterfly",
+      "label": "grand papillon orangé bas",
+      "phase": 0.78,
+      "amplitude_px": 3,
+      "flutter": 0.11,
+      "flutter_cycles": 6
+    },
+    {
+      "bbox": [
+        0.48,
+        0.86,
+        0.21,
+        0.095
+      ],
+      "mode": "butterfly",
+      "label": "grand papillon turquoise bas",
+      "phase": 0.55,
+      "amplitude_px": 3,
+      "flutter": 0.11,
+      "flutter_cycles": 6
+    }
+  ],
+  "flowers": [
+    {
+      "center": [
+        0.15,
+        0.135
+      ],
+      "radius": 0.045,
+      "label": "lys blanc haut-gauche",
+      "phase": 0.0,
+      "sway_px": 4.0,
+      "breathe": 0.016
+    },
+    {
+      "center": [
+        0.875,
+        0.125
+      ],
+      "radius": 0.05,
+      "label": "pivoine rose haut-droite",
+      "phase": 0.4,
+      "sway_px": 4.5,
+      "breathe": 0.018
+    },
+    {
+      "center": [
+        0.075,
+        0.375
+      ],
+      "radius": 0.05,
+      "label": "iris violet gauche",
+      "phase": 0.62,
+      "sway_px": 4.5,
+      "breathe": 0.018
+    },
+    {
+      "center": [
+        0.235,
+        0.455
+      ],
+      "radius": 0.05,
+      "label": "iris violet central-gauche",
+      "phase": 0.18,
+      "sway_px": 4.5,
+      "breathe": 0.018
+    },
+    {
+      "center": [
+        0.18,
+        0.435
+      ],
+      "radius": 0.038,
+      "label": "anémone violette",
+      "phase": 0.81,
+      "sway_px": 4.0,
+      "breathe": 0.02
+    },
+    {
+      "center": [
+        0.195,
+        0.65
+      ],
+      "radius": 0.065,
+      "label": "pivoine rose gauche",
+      "phase": 0.29,
+      "sway_px": 5.0,
+      "breathe": 0.018
+    },
+    {
+      "center": [
+        0.925,
+        0.48
+      ],
+      "radius": 0.045,
+      "label": "lys blanc droit",
+      "phase": 0.74,
+      "sway_px": 4.0,
+      "breathe": 0.016
+    },
+    {
+      "center": [
+        0.91,
+        0.65
+      ],
+      "radius": 0.048,
+      "label": "lys et rose droits",
+      "phase": 0.51,
+      "sway_px": 4.5,
+      "breathe": 0.018
+    },
+    {
+      "center": [
+        0.205,
+        0.905
+      ],
+      "radius": 0.075,
+      "label": "grande pivoine bas-gauche",
+      "phase": 0.07,
+      "sway_px": 5.0,
+      "breathe": 0.018
+    },
+    {
+      "center": [
+        0.3,
+        0.925
+      ],
+      "radius": 0.055,
+      "label": "pivoine violette bas",
+      "phase": 0.9,
+      "sway_px": 4.5,
+      "breathe": 0.018
+    },
+    {
+      "center": [
+        0.775,
+        0.915
+      ],
+      "radius": 0.06,
+      "label": "rose bas-droite",
+      "phase": 0.36,
+      "sway_px": 4.5,
+      "breathe": 0.018
+    },
+    {
+      "center": [
+        0.895,
+        0.885
+      ],
+      "radius": 0.055,
+      "label": "rose jaune bas-droite",
+      "phase": 0.58,
+      "sway_px": 4.5,
+      "breathe": 0.018
+    }
+  ],
+  "effects": {
+    "flowers": true,
+    "birds": true,
+    "bird_engine": "warp",
+    "shimmer": true,
+    "petals": true,
+    "wind_px": 2.2,
+    "petal_count": 14,
+    "petal_colors": [
+      "#e8a7bf",
+      "#c9a0dc",
+      "#f2c9d4",
+      "#f0b26b",
+      "#f6e3ec"
+    ],
+    "protect_margin_px": 8,
+    "protect_feather_px": 16,
+    "seed": 99
+  }
+}
